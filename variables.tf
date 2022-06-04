@@ -1,10 +1,12 @@
 variable "resource_group_name" {
-  default = "aks-cluster-rg"
+  default = "aks-cluster-rg1"
 }
 
-variable "ssh_key_path" {
-  default = "~/.ssh/id_rsa.pub"
+variable "nodes_resource_group_name" {
+  default = "aks-cluster-nodes-rg1"
 }
+
+variable "ssh_key_path" {}
 
 variable "location" {
   default = "eastus"
