@@ -1,0 +1,8 @@
+**/*.tfvars
+**/*.backup
+**/*.terraform
+**/*.hcl
+**/*.vscode
+**/*.code
+**/*.idea
+**/*temp*
